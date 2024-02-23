@@ -23,7 +23,7 @@ struct ContentView: View {
                                 weather = try await
                                 WeatherManager.getCurrentWeather(latitude: location.latitude, longtitude: location.longitude)
                             } catch {
-                                print("error getting weather", \(error))
+                                //print("error getting weather", \(error))
                             }
                         }
                 }
